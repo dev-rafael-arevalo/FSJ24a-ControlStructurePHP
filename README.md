@@ -7,7 +7,7 @@ This repository contains a series of exercises designed to help understand and i
 Below are the details of each exercise included in this repository:
 
 ### 1. Fibonacci Sequence
-Write a function named `generateFibonacci` that takes a number `n` as a parameter and generates the first `n` terms of the Fibonacci sequence. The sequence begins with 0 and 1, and each subsequent term is the sum of the two preceding ones.
+Write a function named `generarFibonacci` that takes a number `n` as a parameter and generates the first `n` terms of the Fibonacci sequence. The sequence begins with 0 and 1, and each subsequent term is the sum of the two preceding ones.
 
 #### Example Usage:
 ```php
@@ -17,7 +17,7 @@ echo "The first $n terms of the Fibonacci sequence are: " . implode(", ", $resul
 ```
 
 ### 2. Prime Number Checker
-Create a function called `isPrime` that determines if a given number is prime. A prime number is only divisible by 1 and itself.
+Create a function called `esPrimo` that determines if a given number is prime. A prime number is only divisible by 1 and itself.
 
 #### Example Usage:
 ```php
@@ -30,7 +30,7 @@ if (isPrime($number)) {
 ```
 
 ### 3. Palindrome Checker
-Implement a function named `isPalindrome` that determines if a given string is a palindrome. A palindrome is a word, phrase, or sequence that reads the same forwards and backwards.
+Implement a function named `esPalindromo` that determines if a given string is a palindrome. A palindrome is a word, phrase, or sequence that reads the same forwards and backwards.
 
 #### Example Usage:
 ```php
